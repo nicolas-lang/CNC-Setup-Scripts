@@ -1,0 +1,35 @@
+{
+  "ports": [
+     {
+       "path": "/dev/ttyUSB0",
+       "manufacturer": ""
+     }
+  ],
+  "baudrates": [115200],
+  "mountPoints": [],
+  "watchDirectory": "~/gcode",
+  "accessTokenLifetime": "180d",
+  "allowRemoteAccess": false,
+  "controller": "Grbl",
+  "state": {
+    "checkForUpdates": true,
+    "controller": {
+      "exception": {
+        "ignoreErrors": false
+      }
+    }
+  },
+  "commands": [
+    {
+      "title": "Reboot",
+      "commands": "sudo /sbin/reboot"
+    },
+    {
+      "title": "Shutdown",
+      "commands": "sudo /sbin/shutdown"
+    }
+  ],
+  "events": [],
+  "macros": [],
+  "users": []
+}
