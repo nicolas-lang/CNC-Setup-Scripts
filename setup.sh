@@ -4,8 +4,8 @@
 
 cd ~
 sudo apt-get install -y build-essential
-curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt-get install -y nodejs
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt install -y nodejs build-essential npm
 
 #update npm and install packages
 sudo npm install -g npm@latest
