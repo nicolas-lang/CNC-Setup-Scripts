@@ -5,7 +5,7 @@
 cd ~
 sudo apt-get install -y build-essential
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt install -y nodejs build-essential
+sudo apt install -y nodejs build-essential python3 python3-pip esptool
 
 #update npm and install packages
 sudo npm install -g npm@latest
