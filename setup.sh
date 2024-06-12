@@ -2,6 +2,11 @@
 # https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-Maintaining-your-Software-Stack-w--Updates-&-Upgrades
 # https://github.com/cncjs/cncjs
 
+mkdir -p ~/gcode
+mkdir -p ~/firmware
+chmod 777 ~/gcode
+chmod 777 ~/firmware
+
 cd ~
 sudo apt-get install -y build-essential
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
